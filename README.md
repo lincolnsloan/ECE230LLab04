@@ -1,4 +1,4 @@
-# Lab 04 - SOP/POS and KMaps
+# Lab 04 - SOP/POS and KMaps, Gavin Dombrowsky and Lincoln Sloan
 
 In this lab, you’ve learned how to apply KMaps, Sum Of Products and Products of
 sums to simplify digital logic equations. Then, you’ve proven out that they work
@@ -16,6 +16,7 @@ using an implemented design on your Basys3 boards.
 ## Lab Summary
 
 Summarize your learnings from the lab here.
+This lab helped to learn about how to draw out k-maps, equations from a Truth Table, and implement the equations in verilog. This lab helped to learn how to use the Basys3 boards with the truth table and from a truth table. It helped to learn how to use the needed code for the equations and being able to implement it to the board.
 
 ## Lab Questions
 
@@ -34,4 +35,4 @@ group inputs with OR gates, and connect the groups with AND gates to create the 
 truth table for the circuit.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
-
+Looking at the test file and looking at the code, and the loop tests with the leds. It checks the minterm file to make sure that every input is the same and if it does not then it prints an error. For the maxterm it does the same with asking for the values to be the same. If all of the values are the same, all the tests pass. It checks the leds to make sure all of the values are the same to be able to print the same output to pass the test.
